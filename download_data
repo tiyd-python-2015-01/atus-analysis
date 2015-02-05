@@ -1,0 +1,18 @@
+#!/bin/sh
+
+mkdir -p atusdata
+curl -O http://www.bls.gov/tus/atususersguide.pdf
+curl http://www.bls.gov/tus/atusintcodebk13.pdf > data_dictionary.pdf
+curl http://www.bls.gov/tus/lexiconnoex2013.pdf > activity_codes.pdf
+curl -O http://www.bls.gov/tus/special.requests/atussum_2013.zip
+curl -O http://www.bls.gov/tus/special.requests/atusresp_2013.zip
+curl -O http://www.bls.gov/tus/special.requests/atusrost_2013.zip
+curl -O http://www.bls.gov/tus/special.requests/atusact_2013.zip
+curl -O http://www.bls.gov/tus/special.requests/atuswho_2013.zip
+curl -O http://www.bls.gov/tus/special.requests/atusrostec_2013.zip
+curl -O http://www.bls.gov/tus/special.requests/atuscps_2013.zip
+
+mv data_dictionary.pdf atusdata/
+mv activity_codes.pdf atusdata/
+mv atususersguide.pdf atusdata/
+mv atus*_2013.zip atusdata/

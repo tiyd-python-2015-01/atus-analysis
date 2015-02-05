@@ -49,11 +49,8 @@ for more examples. You should use these results to double-check your logic as we
 You will download the 2013 files and use these to do analysis. The questions you are trying to answer are up to you, but they
 should at least:
 
-* Compare different populations (people with children and people without, people
-  of differing age groups, men and women, or other groupings)
-* Answer macro-level questions and micro-level questions (for example, trends
-  in the amount of leisure for the macro-level, trends in the types of things
-  people do for leisure for the micro-level)
+* Compare different populations (people with children and people without, people of differing age groups, men and women, or other groupings)
+* Answer macro-level questions and micro-level questions (for example, the amount of leisure for the macro-level, the types of things people do for leisure for the micro-level)
 
 Your final analysis should be in the form of an IPython Notebook with both
 narrative analysis and supporting charts. Your supporting code should be in
