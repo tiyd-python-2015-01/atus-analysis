@@ -1,3 +1,5 @@
+Open ipython notebook education.ipynb
+
 # American Time Use Analysis
 
 ## Description
